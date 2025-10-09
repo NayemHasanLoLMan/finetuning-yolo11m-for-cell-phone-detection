@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+yolo_env/
+
+# Project specific
+models/*.pt
+!models/.gitkeep
+datasets/
+logs/
+*.log
+
+# API keys
+.env
+config/config.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# large files
+coco_cellphone_dataset/
+combined_phone_dataset/
+dataset_mobile_phone/
+dataset_phone_call/
+dataset_phone_hand/
+yolo_cellphone_dataset/
